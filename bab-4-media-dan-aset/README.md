@@ -33,14 +33,6 @@ Dokumentasi arsitektur dan interior membutuhkan ketajaman visual tinggi. Namun, 
 
 ## 4.2 Alur Kompresi Foto Sebelum Upload
 
-```mermaid
-graph LR
-    A[Foto Kamera Asli >4MB] --> B[1. Resize Maks. 1920px Lebar]
-    B --> C[2. Kompresi di TinyPNG / Squoosh]
-    C --> D[3. Format WebP Ringan <200KB]
-    D --> E[4. Upload ke Media Library GKT]
-```
-
 1. Buka situs kompresi: [**TinyPNG.com**](https://tinypng.com/) atau [**Squoosh.app**](https://squoosh.app/).
 2. Masukkan foto dokumentasi proyek yang ingin diunggah.
 3. Unduh hasil kompresi (ukuran file turun rata-rata 70-80% tanpa mengurangi ketajaman gambar).

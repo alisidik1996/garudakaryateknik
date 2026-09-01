@@ -16,20 +16,20 @@ related:
 
 # Modul 3.1: Panduan Dasar Pengeditan Visual Elementor di GKT
 
-Website garudakaryateknik.com dibangun menggunakan arsitektur modern Elementor Pro dan Header Footer Elementor (HFE) dengan tipografi kustom Montserrat dan Gotham serta palet warna korporat emas-navy.
+Website garudakaryateknik.com dibangun menggunakan arsitektur Elementor.
 
 ---
 
 ## 3.1.1 Cara Membuka Mode Visual Editor
 
-### Opsi 1: Dari Bilah Atas Halaman Website (Rekomendasi)
+### Opsi 1: Dari Bilah Atas Halaman Website
 1. Login ke dashboard admin terlebih dahulu.
 2. Kunjungi halaman depan `https://garudakaryateknik.com/`.
 3. Pada bilah hitam admin bar di bagian atas layar, klik tulisan **Edit with Elementor** (pilih `Home` untuk mengedit isi halaman beranda, atau pilih `Header / Footer` untuk mengedit navigasi).
 
 ### Opsi 2: Dari Menu Dashboard
 1. Buka menu **Pages** -> **All Pages**.
-2. Arahkan mouse ke halaman `Home` (ID: 6) -> klik **Edit with Elementor**.
+2. Arahkan mouse ke halaman `Home` -> klik **Edit with Elementor**.
 
 ---
 
@@ -67,7 +67,4 @@ Halaman beranda GKT terdiri dari beberapa seksi kontainer utama:
 > [!danger] Perhatian Staf Pengelola
 > 1. **Widget Selected Works Bekerja Otomatis**: Seksi *Selected Works* menggunakan widget *Loop Grid* yang otomatis menarik data dari menu **Projects**. Anda tidak perlu menambahkan kotak proyek secara manual di Elementor; cukup buat proyek baru di menu **Projects**, dan foto beserta judulnya akan otomatis muncul di sini.
 > 2. **Jangan Mengubah Lebar Container (Padding 6%)**: Tata letak website diatur dengan padding presisi 6%. Cukup klik pada widget teks, gambar, atau ikon untuk mengubah isinya tanpa mengubah konfigurasi layout kontainer pembungkus.
-> 3. **Wajib Menekan Tombol UPDATE**: Setelah melakukan perubahan, tombol hijau Update di pojok kiri bawah panel harus ditekan agar perubahan tersimpan ke publik.
-> 4. **Prosedur Pemulihan (Undo / Revision History)**:
->    - Tekan `Ctrl + Z` untuk membatalkan langkah terakhir.
->    - Klik ikon History di bilah kiri bawah -> pilih tab Revisions untuk mengembalikan halaman ke versi tanggal sebelumnya.
+> 3. **Wajib Menekan Tombol UPDATE**: Setelah melakukan perubahan, tombol Update  harus ditekan agar perubahan tersimpan ke publik.

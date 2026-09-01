@@ -16,7 +16,7 @@ related:
 
 # Modul 2.1: SOP Input Portofolio Proyek (Menu Projects)
 
-Portofolio hasil karya PT Garuda Karya Teknik dikelola secara terpisah melalui **Custom Post Type: Projects**. Proyek yang diterbitkan di sini akan otomatis tampil pada grid *Selected Works* di halaman Beranda dan halaman katalog *Projects Archive* (`https://garudakaryateknik.com/projects-archive`).
+Portofolio hasil karya Garuda Karya Teknik dikelola secara terpisah melalui **Custom Post Type: Projects**. Proyek yang diterbitkan di sini akan otomatis tampil pada grid *Selected Works* di halaman Beranda dan halaman katalog *Projects Archive* (`https://garudakaryateknik.com/projects-archive`).
 
 ---
 
@@ -36,7 +36,6 @@ Setiap publikasi proyek baru memuat informasi teknis terstruktur:
 | [ Narasi Deskripsi Proyek & Tantangan Konstruksi ]          |
 | [ Foto Dokumentasi Utama Resolusi Penuh ]                   |
 | [ Blok Galeri Kolom Foto Detail Interior / Fit-Out ]        |
-| [ Yoast SEO Meta Description ]                              |
 +-------------------------------------------------------------+
 ```
 
@@ -58,7 +57,7 @@ Setiap publikasi proyek baru memuat informasi teknis terstruktur:
    - Unggah foto-foto detail pengerjaan (custom furniture, pencahayaan, finishing lantai/dinding).
    - Atur pengaturan galeri pada bilah kanan menjadi **Columns: 2** atau **Columns: 3** agar tata letak foto tampil seimbang dan rapi.
 4. **Paragraf Penutup (Quality Control)**:
-   - Tuliskan ringkasan peran PT Garuda Karya Teknik sebagai kontraktor pelaksana, standar pengawasan mutu (Quality Control), dan hasil akhir proyek.
+   - Tuliskan ringkasan peran PT Garuda Karya Teknik sebagai kontraktor pelaksana, dan hasil akhir proyek.
 
 ---
 
@@ -85,11 +84,11 @@ Gambar sampul ini adalah foto yang ditarik secara otomatis oleh widget *Loop Gri
 ### Langkah 5: Pengaturan Yoast SEO
 1. Gulir ke bawah ke kotak **Yoast SEO**:
    - **Focus Keyphrase**: Masukkan kata kunci pencarian (contoh: `jasa interior kafe bogor`).
-   - **Meta Description**: Tulis 1-2 kalimat ringkas (maksimal 155 karakter) yang merangkum lokasi dan layanan proyek ini.
+   - **Meta Description**: Tulis 1-2 kalimat ringkas (maksimal 155 karakter) yang merangkum layanan proyek ini.
 
 ---
 
 ### Langkah 6: Publikasi dan Verifikasi
 1. Klik tombol **Preview** -> **Preview in new tab** untuk memeriksa tampilan halaman proyek.
 2. Jika format sudah rapi, klik tombol biru **Publish** dua kali.
-3. Kunjungi `https://garudakaryateknik.com/projects-archive` untuk memastikan proyek baru telah muncul di halaman arsip dan tautan permalink dapat diakses dengan baik.
+3. Kunjungi `https://garudakaryateknik.com/[slug-project]` untuk memastikan proyek baru telah muncul.

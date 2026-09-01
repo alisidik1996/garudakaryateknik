@@ -17,18 +17,17 @@ related:
 
 # Modul 3.2: SOP Mengedit Banner, Teks Layanan, dan Tombol Kontak GKT
 
-Panduan operasional praktis untuk memperbarui teks penawaran, mengubah deskripsi kemampuan (Capabilities), dan mengganti nomor kontak WhatsApp di halaman website.
+Panduan operasional praktis untuk memperbarui teks penawaran, mengubah deskripsi, dan mengganti nomor kontak WhatsApp di halaman website.
 
 ---
 
 ## 3.2.1 Mengubah Teks Hero Banner dan Visi Misi
 
 1. Buka halaman beranda dalam mode **Edit with Elementor**.
-2. Klik satu kali pada teks judul utama *"Build Beyond Value."* atau teks visi misi.
+2. Klik satu kali pada teks judul contoh *"Build Beyond Value."*
 3. Di panel sebelah kiri (tab **Content**):
    - Ubah teks pada kolom **Title** atau **Text Editor**.
-   - Pertahankan format huruf dan tanda baca korporat.
-4. Klik tombol hijau **Update** di pojok kiri bawah.
+4. Klik tombol **Update** di pojok kanan atas.
 
 ---
 
@@ -63,10 +62,10 @@ Tombol Call-to-Action (CTA) utama website diarahkan langsung ke WhatsApp Bisnis 
 ### Langkah Mengubah Nomor atau Pesan Otomatis WhatsApp:
 1. Klik pada elemen tombol (misal: tombol *"Discuss Your Project"* di hero banner atau tombol WhatsApp di bagian footer).
 2. Di panel kiri (tab **Content** -> seksi **Button**):
-   - **Link**: Masukkan format URL WhatsApp:
+   - **Link**: Masukkan format URL WhatsApp (ubah nomor HP dengan format internasional 62):
      ```text
      https://wa.me/6282128644561?text=Halo%20Garuda%20Karya%20Teknik,%20saya%20ingin%20konsultasi%20mengenai%20proyek%20konstruksi/interior
      ```
    - Pastikan opsi `Open in new window` aktif.
-3. Klik tombol hijau **Update**.
+3. Klik tombol **Update**.
 4. Uji coba klik tombol tersebut dari jendela browser biasa untuk memastikan chat WhatsApp langsung terbuka dengan format pesan yang benar.

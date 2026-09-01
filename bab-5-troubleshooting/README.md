@@ -17,11 +17,11 @@ related:
 
 # Modul 5: Pengecekan Form Masuk, Instagram Feed, & Troubleshooting GKT
 
-Modul ini memandu staf operasional dalam memonitor pesan penawaran proyek yang masuk melalui website, memelihara widget Instagram feed @gkt.builds, dan menyelesaikan kendala teknis harian.
+Modul ini memandu staf operasional dalam memonitor pesan yang masuk melalui website, memelihara widget Instagram feed @gkt.builds, dan menyelesaikan kendala teknis harian.
 
 ---
 
-## 5.1 Memeriksa Pesan Masuk dari Formulir Website (Lead Submissions)
+## 5.1 Memeriksa Pesan Masuk dari Formulir Website
 
 Calon klien yang mengisi form konsultasi ("Schedule Consultation / Contact Us") akan otomatis tercatat ke dalam dua saluran:
 1. **Notifikasi Email**: Dikirim langsung ke `office@garudakaryateknik.com`.
@@ -73,5 +73,4 @@ Seksi "Latest Updates & Projects" di halaman beranda menampilkan feed otomatis d
 Untuk kendala darurat (website down, error database, atau perpanjangan hosting/domain):
 
 - **Tech Engineer & Konsultan**: [[Ali Sidik Abdus Salam]]
-- **WhatsApp Teknis**: 0821 2864 4561 (atau kontak WhatsApp Tuan Ali)
-- **Email Teknis**: office@garudakaryateknik.com
+- **WhatsApp Teknis**: 089 879 650 23

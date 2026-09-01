@@ -16,7 +16,7 @@ related:
 
 # Modul 1: Login & Navigasi Dashboard WordPress GKT
 
-Modul ini memandu staf administrator dan tim konten PT Garuda Karya Teknik dalam mengakses panel kontrol website secara aman serta memahami letak menu pengelolaan sistem.
+Modul ini memandu staf administrator Garuda Karya Teknik dalam mengakses panel kontrol website secara aman serta memahami letak menu pengelolaan sistem.
 
 ---
 
@@ -59,22 +59,22 @@ Modul ini memandu staf administrator dan tim konten PT Garuda Karya Teknik dalam
 
 ## 1.3 Navigasi Menu Backend Utama GKT
 
-Berdasarkan struktur arsitektur WordPress PT Garuda Karya Teknik, berikut adalah pemetaan menu kerja yang digunakan:
+Struktur Website Garuda Karya Teknik, berikut adalah pemetaan menu kerja yang biasa digunakan:
 
-1. **Projects (Custom Post Type)**:
-   - Menu khusus untuk mengelola portofolio proyek konstruksi, fit-out, dan renovasi yang tampil pada halaman *Selected Works* di Beranda dan *Projects Archive* (`/projects-archive`).
-2. **Posts (Pos / Artikel)**:
-   - Menu untuk mengunggah artikel berita korporat, wawasan teknik, dan pengumuman umum.
+1. **Projects**:
+   - Menu khusus untuk mengelola portofolio proyek yang tampil pada halaman *Selected Works* di Beranda dan *Projects Archive* (`/projects-archive`).
+2. **Posts (Artikel)**:
+   - Menu untuk mengunggah artikel berita.
 3. **Media**:
-   - Pustaka penyimpanan foto arsitektur, banner, gambar galeri proyek, dan logo perusahaan.
-4. **Pages (Laman)**:
+   - Pustaka penyimpanan foto.
+4. **Pages**:
    - Mengelola halaman statis utama:
      - `Home` (Halaman Beranda Utama)
      - `Projects Archive` (Halaman Katalog Semua Proyek)
 5. **Elementor & Header Footer Elementor (HFE)**:
-   - Pengaturan tata letak visual halaman dan navigasi menu header/footer.
+   - Pengaturan tata letak navigasi menu header/footer.
 6. **Elementor Submissions**:
-   - Memantau pesan dan formulir penawaran masuk dari calon klien (*Schedule Consultation*).
+   - Memantau pesan dan formulir masuk dari calon klien (*Schedule Consultation*).
 
 ---
 
