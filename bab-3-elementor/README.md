@@ -29,7 +29,7 @@ Website garudakaryateknik.com dibangun menggunakan arsitektur modern Elementor P
 
 ### Opsi 2: Dari Menu Dashboard
 1. Buka menu **Pages** -> **All Pages**.
-2. Arahkan mouse ke halaman `Home - Garuda Karya Teknik` -> klik **Edit with Elementor**.
+2. Arahkan mouse ke halaman `Home` (ID: 6) -> klik **Edit with Elementor**.
 
 ---
 
@@ -47,10 +47,9 @@ Halaman beranda GKT terdiri dari beberapa seksi kontainer utama:
 |    - Project Management  - Quality Control                  |
 |    - Cost Control        - Schedule Management              |
 +-------------------------------------------------------------+
-| 3. SELECTED WORKS (Loop Grid Proyek Unggulan)               |
-|    - Coffee Shop Fit-Out (Bogor)                            |
-|    - Studio Apartment Fit-Out (Karawang)                    |
-|    - Classic House Renovation (Bekasi)                      |
+| 3. SELECTED WORKS (Widget Loop Grid -> Sumber: CPT Projects)|
+|    - Otomatis menampilkan proyek terbaru dari menu Projects |
+|    - Tombol: [ VIEW ALL PROJECTS ] -> /projects-archive     |
 +-------------------------------------------------------------+
 | 4. OUR CAPABILITIES (6 Kotak Layanan Terintegrasi)          |
 |    - Design & Build | Build Construction | Fit-Out          |
@@ -66,8 +65,9 @@ Halaman beranda GKT terdiri dari beberapa seksi kontainer utama:
 ## 3.1.3 Aturan Keamanan Pengeditan Visual GKT
 
 > [!danger] Perhatian Staf Pengelola
-> 1. **Jangan Mengubah Lebar Container (Padding/Margin 6%)**: Tata letak website diatur dengan padding presisi 6%. Cukup klik pada widget teks, gambar, atau ikon untuk mengubah isinya tanpa mengubah konfigurasi layout kontainer pembungkus.
-> 2. **Wajib Menekan Tombol UPDATE**: Setelah melakukan perubahan, tombol hijau Update di pojok kiri bawah panel harus ditekan agar perubahan tersimpan ke publik.
-> 3. **Prosedur Pemulihan (Undo / Revision History)**:
+> 1. **Widget Selected Works Bekerja Otomatis**: Seksi *Selected Works* menggunakan widget *Loop Grid* yang otomatis menarik data dari menu **Projects**. Anda tidak perlu menambahkan kotak proyek secara manual di Elementor; cukup buat proyek baru di menu **Projects**, dan foto beserta judulnya akan otomatis muncul di sini.
+> 2. **Jangan Mengubah Lebar Container (Padding 6%)**: Tata letak website diatur dengan padding presisi 6%. Cukup klik pada widget teks, gambar, atau ikon untuk mengubah isinya tanpa mengubah konfigurasi layout kontainer pembungkus.
+> 3. **Wajib Menekan Tombol UPDATE**: Setelah melakukan perubahan, tombol hijau Update di pojok kiri bawah panel harus ditekan agar perubahan tersimpan ke publik.
+> 4. **Prosedur Pemulihan (Undo / Revision History)**:
 >    - Tekan `Ctrl + Z` untuk membatalkan langkah terakhir.
 >    - Klik ikon History di bilah kiri bawah -> pilih tab Revisions untuk mengembalikan halaman ke versi tanggal sebelumnya.

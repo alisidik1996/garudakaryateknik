@@ -14,9 +14,9 @@ related:
   - "[[Garuda Karya Teknik]]"
 ---
 
-# Modul 1: Login & Akses Dashboard WordPress
+# Modul 1: Login & Navigasi Dashboard WordPress GKT
 
-Modul ini memandu staf administrator dan pengelola konten PT Garuda Karya Teknik dalam mengakses area kontrol utama website secara aman.
+Modul ini memandu staf administrator dan tim konten PT Garuda Karya Teknik dalam mengakses panel kontrol website secara aman serta memahami letak menu pengelolaan sistem.
 
 ---
 
@@ -45,7 +45,7 @@ Modul ini memandu staf administrator dan pengelola konten PT Garuda Karya Teknik
 +-------------------------------------------------------------+
 ```
 
-1. Masukkan Username atau Email resmi akun yang diberikan oleh Tech Engineer.
+1. Masukkan Username atau Email resmi akun admin.
 2. Masukkan Password akun.
 3. Klik tombol Log Masuk (Log In).
 4. Setelah terverifikasi, sistem akan mengarahkan ke Dashboard WordPress Utama.
@@ -57,15 +57,24 @@ Modul ini memandu staf administrator dan pengelola konten PT Garuda Karya Teknik
 
 ---
 
-## 1.3 Navigasi Menu Utama Administrator GKT
+## 1.3 Navigasi Menu Backend Utama GKT
 
-Pada bilah menu sebelah kiri dashboard, berikut fungsi menu yang sering digunakan:
+Berdasarkan struktur arsitektur WordPress PT Garuda Karya Teknik, berikut adalah pemetaan menu kerja yang digunakan:
 
-- **Posts (Pos / Proyek)**: Mengunggah pembaruan proyek (Selected Works), studi kasus (Fit-Out, Renovation), dan artikel berita teknik.
-- **Media**: Mengelola galeri foto dokumentasi proyek arsitektur, gambar banner, dan logo perusahaan.
-- **Pages (Laman)**: Mengelola halaman utama (Beranda / Home dan Projects Archive).
-- **Elementor & Templates**: Pengaturan elemen header navigasi (HFE) dan template footer kontak.
-- **Elementor Submissions / WPForms**: Memeriksa pesan masuk dari calon klien (Schedule Consultation).
+1. **Projects (Custom Post Type)**:
+   - Menu khusus untuk mengelola portofolio proyek konstruksi, fit-out, dan renovasi yang tampil pada halaman *Selected Works* di Beranda dan *Projects Archive* (`/projects-archive`).
+2. **Posts (Pos / Artikel)**:
+   - Menu untuk mengunggah artikel berita korporat, wawasan teknik, dan pengumuman umum.
+3. **Media**:
+   - Pustaka penyimpanan foto arsitektur, banner, gambar galeri proyek, dan logo perusahaan.
+4. **Pages (Laman)**:
+   - Mengelola halaman statis utama:
+     - `Home` (Halaman Beranda Utama)
+     - `Projects Archive` (Halaman Katalog Semua Proyek)
+5. **Elementor & Header Footer Elementor (HFE)**:
+   - Pengaturan tata letak visual halaman dan navigasi menu header/footer.
+6. **Elementor Submissions**:
+   - Memantau pesan dan formulir penawaran masuk dari calon klien (*Schedule Consultation*).
 
 ---
 
