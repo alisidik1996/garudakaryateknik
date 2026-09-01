@@ -14,46 +14,46 @@ related:
   - "[[Garuda Karya Teknik]]"
 ---
 
-# 🔑 Modul 1: Login & Akses Dashboard WordPress
+# Modul 1: Login & Akses Dashboard WordPress
 
-Modul ini memandu staf administrator dan pengelola konten **PT Garuda Karya Teknik** dalam mengakses area kontrol utama website secara aman.
+Modul ini memandu staf administrator dan pengelola konten PT Garuda Karya Teknik dalam mengakses area kontrol utama website secara aman.
 
 ---
 
 ## 1.1 Alamat URL Akses Admin
 
-1. Buka peramban web (*Google Chrome, Microsoft Edge, atau Safari*).
+1. Buka peramban web (Google Chrome, Microsoft Edge, atau Safari).
 2. Masukkan alamat URL login resmi:
    ```text
    https://garudakaryateknik.com/wp-admin
    ```
-   *(atau `https://garudakaryateknik.com/wp-login.php`)*.
+   (atau `https://garudakaryateknik.com/wp-login.php`).
 
 ---
 
 ## 1.2 Prosedur Masuk Akun
 
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│             Halaman Login garudakaryateknik.com             │
-│                                                             │
-│   Nama Pengguna / Email : [ admin@garudakaryateknik.com   ] │
-│   Kata Sandi            : [ ••••••••••••••••••••••        ] │
-│                                                             │
-│   [ ] Ingat Saya                                            │
-│                                 [ Tombol: Masuk / Log In ]  │
-└─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|             Halaman Login garudakaryateknik.com             |
+|                                                             |
+|   Nama Pengguna / Email : [ admin@garudakaryateknik.com   ] |
+|   Kata Sandi            : [ **********************        ] |
+|                                                             |
+|   [ ] Ingat Saya                                            |
+|                                 [ Tombol: Masuk / Log In ]  |
++-------------------------------------------------------------+
 ```
 
-1. Masukkan **Username** atau **Email resmi** akun yang diberikan oleh Tech Engineer.
-2. Masukkan **Password** akun.
-3. Klik tombol **Log Masuk (Log In)**.
-4. Setelah terverifikasi, Anda akan langsung diarahkan ke **Dashboard WordPress Utama**.
+1. Masukkan Username atau Email resmi akun yang diberikan oleh Tech Engineer.
+2. Masukkan Password akun.
+3. Klik tombol Log Masuk (Log In).
+4. Setelah terverifikasi, sistem akan mengarahkan ke Dashboard WordPress Utama.
 
 > [!warning] Standar Keamanan Akun GKT
-> - Gunakan kata sandi kuat (*kombinasi huruf besar, huruf kecil, angka, dan simbol*).
-> - Jangan pernah memberikan akun admin ke pihak ketiga tanpa persetujuan pimpinan.
-> - Hindari mencentang opsi *"Ingat Saya"* jika menggunakan perangkat bersama.
+> - Gunakan kata sandi yang kuat (kombinasi huruf besar, huruf kecil, angka, dan simbol).
+> - Dilarang membagikan kredensial akun admin kepada pihak ketiga tanpa persetujuan pimpinan.
+> - Hindari mencentang opsi "Ingat Saya" jika menggunakan perangkat bersama.
 
 ---
 
@@ -61,18 +61,16 @@ Modul ini memandu staf administrator dan pengelola konten **PT Garuda Karya Tekn
 
 Pada bilah menu sebelah kiri dashboard, berikut fungsi menu yang sering digunakan:
 
-- **📌 Posts (Pos / Proyek)**: Mengunggah pembaruan proyek (*Selected Works*), studi kasus (*Fit-Out, Renovation*), dan artikel berita teknik.
-- **🖼️ Media**: Mengelola galeri foto dokumentasi proyek arsitektur, gambar banner, dan logo perusahaan.
-- **📄 Pages (Laman)**: Mengelola halaman utama:
-  - `Beranda / Home`
-  - `Projects Archive` (`https://garudakaryateknik.com/projects-archive`)
-- **🎨 Elementor & Templates**: Pengaturan elemen header navigasi (*HFE*) dan template footer kontak.
-- **📬 Elementor Submissions / WPForms**: Memeriksa pesan masuk dari calon klien (*Discuss Your Project*).
+- **Posts (Pos / Proyek)**: Mengunggah pembaruan proyek (Selected Works), studi kasus (Fit-Out, Renovation), dan artikel berita teknik.
+- **Media**: Mengelola galeri foto dokumentasi proyek arsitektur, gambar banner, dan logo perusahaan.
+- **Pages (Laman)**: Mengelola halaman utama (Beranda / Home dan Projects Archive).
+- **Elementor & Templates**: Pengaturan elemen header navigasi (HFE) dan template footer kontak.
+- **Elementor Submissions / WPForms**: Memeriksa pesan masuk dari calon klien (Schedule Consultation).
 
 ---
 
 ## 1.4 Prosedur Keluar Akun (Logout)
 
 Setelah selesai melakukan pembaruan konten:
-1. Arahkan kursor ke pojok kanan atas layar (*Halo, [Nama Anda]*).
-2. Klik tombol **Keluar (Log Out)**.
+1. Arahkan kursor ke pojok kanan atas layar (Halo, [Nama Anda]).
+2. Klik tombol Keluar (Log Out).
